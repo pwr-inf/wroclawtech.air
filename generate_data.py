@@ -6,14 +6,6 @@ pio.renderers.default = "browser"
 import numpy as np
 import argparse
 
-# remove values greater than X
-def remove_outliers(df, column: str):
-    historical_max = 352.6 # max historical data from https://powietrze.gios.gov.pl/pjp/archives/downloadFile/423
-    for column_name in df.columns:
-        if column_name.endswith(column):
-            df = df[df[column_name] <= historical_max]
-    return df
-
 
 def rename_columns(df, suffix):
     new_column_names = dict()
@@ -70,9 +62,10 @@ def generate_dataset(window: str, input_dir: str, output_dir: str, year: str):
                     fname_year = file_name[file_name.find('_') + 1:file_name.rfind('_')]
                     fname_month = file_name[file_name.rfind('_') + 1: file_name.find('.')]
                     if fname_month == month and fname_year == year and fname_sensor_id == sensor_id:
-                        m_df = pd.read_feather(os.path.join(input_dir, file_name), columns=readings_features + ['timestamp']).set_index('timestamp')
+                        m_df = pd.read_feather(os.path.join(input_dir, file_name), columns=readings_features + ['timestamp']).set_index('timestamp')              
                         m_df[m_df.select_dtypes(np.float64).columns] = m_df.select_dtypes(np.float64).astype(np.float16)
-                        m_df = m_df.resample(window).mean()
+                        if window != "10s":
+                            m_df = m_df.resample(window).mean()
                         rename_columns(m_df, sensor_id)
                         month_dfs.append(m_df)
                         del(m_df)
@@ -83,10 +76,6 @@ def generate_dataset(window: str, input_dir: str, output_dir: str, year: str):
                 del(all_columns_df)
 
     all_years_df = pd.concat(all_years_dfs)
-
-    all_years_df = remove_outliers(all_years_df, column='PM2.5[calibrated]') # removes rows where extreme data occured
-    # fig = all_years_df.plot()
-    # fig.show()
 
     if not os.path.exists(output_dir):
       os.makedirs(output_dir)
