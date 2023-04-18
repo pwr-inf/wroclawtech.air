@@ -1,4 +1,4 @@
-"""This script generates air an air quality dataset that can be used in further experiments.
+"""This script generates an air quality dataset that can be used in further experiments.
 
 The script takes in three arguments:
 1. window - a time window the data will be averaged with, e.g. '15min'. Other possible windows: https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#offset-aliases
