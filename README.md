@@ -1,10 +1,8 @@
 # wroclawtech.air
 # Per campus
 ## Main campus
-### 2019
+### [2019](https://pwr-inf.github.io/wroclawtech.air/plots/maincampus_2019_1D.html)
 
-<iframe src="https://github.com/pwr-inf/wroclawtech.air/blob/data-visualizations/plots/maincampus_2019_1D.html" style="width:100%; height:300px;">
-</iframe>
         
 ## Bujwida St.
 ## Długa St.
