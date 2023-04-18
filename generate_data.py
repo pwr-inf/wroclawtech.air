@@ -2,7 +2,7 @@
 
 The script takes in three arguments:
 1. window - a time window the data will be averaged with, e.g. '15min'. Other possible windows: https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#offset-aliases
-2. input_dir - path to the input directory with .feather files containing readings from the sensor nodes from different months
+2. input_dir - path to the input directory with .feather files containing readings from the sensor nodes from different months and years
 3. output_dir - path to the output directory which will contain output .csv files for the years 2019, 2020, 2021 and 2022.
 """
 
