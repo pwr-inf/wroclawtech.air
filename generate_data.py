@@ -20,7 +20,6 @@ def rename_columns(df, suffix):
     for column_name in df.columns:
         if column_name != 'timestamp':
             new_column_names[column_name] = f"{suffix}.{column_name}"
-    # print(new_column_names)
     df.rename(columns=new_column_names, inplace=True)
 
 
@@ -57,8 +56,7 @@ def generate_dataset(window: str, input_dir: str, output_dir: str, year: str):
         months = [str(i).zfill(2) for i in range(1, 7)]
         dates_dict['2022'] = months
 
-    # sensor_ids = [f'10{str(x).zfill(2)}' for x in range(1, 21)]
-    sensor_ids = [f'10{str(x).zfill(2)}' for x in range(1, 6)] # for testing
+    sensor_ids = [f'10{str(x).zfill(2)}' for x in range(1, 21)]
 
     all_years_dfs = []
 
@@ -74,8 +72,7 @@ def generate_dataset(window: str, input_dir: str, output_dir: str, year: str):
                     if fname_month == month and fname_year == year and fname_sensor_id == sensor_id:
                         m_df = pd.read_feather(os.path.join(input_dir, file_name), columns=readings_features + ['timestamp']).set_index('timestamp')
                         m_df[m_df.select_dtypes(np.float64).columns] = m_df.select_dtypes(np.float64).astype(np.float16)
-                        m_df = m_df.resample(window).mean() # this fixed most of the memory problems
-                        # m_df = remove_outliers(m_df, column='PM2.5[calibrated]') # removes rows where extreme data occured
+                        m_df = m_df.resample(window).mean()
                         rename_columns(m_df, sensor_id)
                         month_dfs.append(m_df)
                         del(m_df)
@@ -87,7 +84,6 @@ def generate_dataset(window: str, input_dir: str, output_dir: str, year: str):
 
     all_years_df = pd.concat(all_years_dfs)
 
-    # all_years_df = all_years_df.resample('15min').mean().ffill()
     all_years_df = remove_outliers(all_years_df, column='PM2.5[calibrated]') # removes rows where extreme data occured
     # fig = all_years_df.plot()
     # fig.show()
@@ -97,7 +93,7 @@ def generate_dataset(window: str, input_dir: str, output_dir: str, year: str):
 
     output_file = os.path.join(output_dir, f'{year}.csv')
     all_years_df.to_csv(output_file)
-    print(f"Done. Output files saved in: {output_dir}.")
+    print(f"{year} done. Output files saved in: {output_dir}.")
 
 
 
