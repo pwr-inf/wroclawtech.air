@@ -27,6 +27,32 @@
 [Minimum PM<sub>2.5</sub> = 50 μg/m<sup>3</sup>](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/main/transitions/main_15min_min50.html)
         
 ## Bujwida St.
+### 2019
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/daily/bujwida_2019_1D.html)
+
+[January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/monthly/bujwida_2019_01.html)
+
+### 2020
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/daily/bujwida_2020_1D.html)
+
+[January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/monthly/bujwida_2020_01.html)
+
+### 2021
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/daily/bujwida_2021_1D.html)
+
+[January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/monthly/bujwida_2021_01.html)
+
+### 2022
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/daily/bujwida_2022_1D.html)
+
+[January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/monthly/bujwida_2022_01.html)
+
+### PM<sub>2.5</sub> transitions
+[Minimum PM<sub>2.5</sub> = 0 μg/m<sup>3</sup>](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/transitions/bujwida_15min_min0.html)
+
+[Minimum PM<sub>2.5</sub> = 50 μg/m<sup>3</sup>](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/bujwida/transitions/bujwida_15min_min50.html)
+
+
 ## Długa St.
 ## Na Grobli St.
 ## Prusa St.
