@@ -35,7 +35,7 @@
 # Per building PM<sub>2.5</sub> concentration pairplots
 [Building C-5 - different floors](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/c5_15min.png)
 
-[Building T-19 - different floors](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/c5_15min.png)
+[Building T-19 - different floors](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/t19_15min.png)
 
 [Buildings D-1 vs D-2 vs D-3](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/d_15mi.png)
 
