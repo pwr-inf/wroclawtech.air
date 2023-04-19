@@ -1,5 +1,8 @@
 # wroclawtech.air
 
+* TOC
+{:toc}
+
 # MAE heatmaps
 [Between campuses](https://pwr-inf.github.io/wroclawtech.air/plots/mae_heatmaps/campuses_mae_15min.html)
 
