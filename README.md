@@ -3,7 +3,7 @@
 # MAE heatmaps
 [Between campuses](https://pwr-inf.github.io/wroclawtech.air/plots/mae_heatmaps/campuses_mae_15min.html)
 
-[Between sensor nodes](https://pwr-inf.github.io/wroclawtech.air/plots/mae_heatmaps/.html)
+[Between sensor nodes](https://pwr-inf.github.io/wroclawtech.air/plots/mae_heatmaps/sensors_mae_15min_no_stratification.html)
 
 [Between sensor nodes (stratified K-fold on Polish AQI)](https://pwr-inf.github.io/wroclawtech.air/plots/mae_heatmaps/.html)
 
