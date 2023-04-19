@@ -10,7 +10,7 @@
 # AQI transitions
 [EU AQI, December 2018 to September 2022](https://pwr-inf.github.io/wroclawtech.air/plots/aqi_heatmaps/aqi_transitions_15min_EU_2018_2019_2020_2021.html)
 
-# Per campus
+# Per campus average PM<sub>2.5</sub> concentrations
 ## Main campus
 ### 2019
 [Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/main/daily/main_2019_1D.html)
