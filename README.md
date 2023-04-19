@@ -55,7 +55,7 @@
 
 ## Długa St.
 ### 2019
-[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/dluga/daily/dluga.html)
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/dluga/daily/dluga_2019_1D.html)
 
 [January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/dluga/monthly/dluga_2019_01.html)
 
@@ -81,6 +81,32 @@
 
 
 ## Na Grobli St.
+### 2019
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/daily/nagrobli_2019_1D.html)
+
+[January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/monthly/nagrobli_2019_01.html)
+
+### 2020
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/daily/nagrobli_2020_1D.html)
+
+[January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/monthly/nagrobli_2020_01.html)
+
+### 2021
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/daily/nagrobli_2021_1D.html)
+
+[January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/monthly/nagrobli_2021_01.html)
+
+### 2022
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/daily/nagrobli_2022_1D.html)
+
+[January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/monthly/nagrobli_2022_01.html)
+
+### PM<sub>2.5</sub> transitions
+[Minimum PM<sub>2.5</sub> = 0 μg/m<sup>3</sup>](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/transitions/nagrobli_15min_min0.html)
+
+[Minimum PM<sub>2.5</sub> = 50 μg/m<sup>3</sup>](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/nagrobli/transitions/nagrobli_15min_min50.html)
+
+
 ## Prusa St.
 ## Wittiga St.
 
