@@ -32,3 +32,23 @@
 ## Prusa St.
 ## Wittiga St.
 
+# Per building PM<sub>2.5</sub> concentration pairplots
+[Building C-5 - different floors](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/c5_15min.png)
+
+[Building T-19 - different floors](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/c5_15min.png)
+
+[Buildings D-1 vs D-2 vs D-3](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/d_15mi.png)
+
+[Buildings E-1 vs F-3](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/e1_f3_15min.png)
+
+[Building H-4 - street side vs yard side](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/h4_15min.png)
+
+[Building H-6 - street side vs river side](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/h6_15min.png)
+
+[Building M-2 vs Main campus](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/m2_campus_15min.png)
+
+[Building H-6 river side vs Na Grobli St. (both sides od the river)](https://pwr-inf.github.io/wroclawtech.air/plots/per_building/river_sides_15min.png)
+
+
+
+
