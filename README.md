@@ -7,6 +7,9 @@
 
 [Between sensor nodes (10-fold stratified on Polish AQI)](https://pwr-inf.github.io/wroclawtech.air/plots/mae_heatmaps/sensors_mae_15min_stratification.html)
 
+# AQI transitions
+[EU AQI, December 2018 to September 2022](https://pwr-inf.github.io/wroclawtech.air/plots/aqi_heatmaps/aqi_transitions_15min_EU_2018_2019_2020_2021.html)
+
 # Per campus
 ## Main campus
 ### 2019
