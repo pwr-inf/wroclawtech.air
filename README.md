@@ -55,7 +55,7 @@
 
 ## Długa St.
 ### 2019
-[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/dluga/daily/dluga_2019_1D.html.html)
+[Average daily concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/dluga/daily/dluga_2019_1D.html)
 
 [January average 15 min concentration](https://pwr-inf.github.io/wroclawtech.air/plots/per_campus/dluga/monthly/dluga_2019_01.html)
 
